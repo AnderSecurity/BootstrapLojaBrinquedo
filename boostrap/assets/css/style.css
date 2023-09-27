@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    color: white;
+    font-size: 25px;
+}
+
+img {
+    text-align: center;
+}
+
+.card {
+    border-radius: 8px;
+    padding: 10px;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    margin: 25px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 5px 15px;
+}
+
+.content {
+    display: none;
+}
+
+.active-content {
+    display: block;
+}
